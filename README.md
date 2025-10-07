@@ -53,24 +53,22 @@ Mission Explorer is a web-based platform that allows users with or without an ac
     ```bash
     pip install -r requirements.txt
     ```
-    *(Note: You will need to create a `requirements.txt` file with the necessary Python libraries: Flask, Flask-Cors, Pillow, opencv-python-headless, numpy, google-generativeai)*
 
 4.  **Set up your Google Generative AI API Key:**
     *   Open the `server_side.py` file.
-    *   Replace `"AIzaSyArVogFxTiuDR9nlFoMigCkP9jfZ-SPJjs"` with your actual Gemini API key in the `GEMINI_API_KEY` variable.
 
 5.  **Run the Flask server:**
     ```bash
     python server_side.py
     ```
-    The backend server will start on `http://localhost:5000`.
+
 
 ### Frontend Setup
 
 1.  **Navigate to the frontend directory** (assuming your Next.js project is in a `frontend` subdirectory):
     ```bash
     cd frontend
-    ```    *(Note: Based on the provided files, the Next.js components are in the root. You would typically have a `package.json` in the root of your frontend project.)*
+    ```  
 
 2.  **Install the required npm packages:**
     ```bash
